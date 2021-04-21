@@ -1,12 +1,28 @@
 {% extends 'base.html' %}
 
 {% block title %}
-Страница про нас
+
 {% endblock %}
 
 {% block body %}
 <div class="container-sm">
-    <h1>Страница про нас</h1>
-    <img src="https://vk.com/albums591233599?z=photo591233599_457240222%2Fphotos591233599" class="img-fluid" alt="...">
+
+    <h1><strong></strong></h1>
+    <div class="text-center">
+        <h3><span class="badge bg-secondary">Тут страница обо мне</span></h3>
+        <h1><span class="badge rounded-pill bg-dark">Вот Илюша лодырь</span></h1>
+            <img src="/static/img_avtor.jpg" width="600" height="600" class="rounded" alt="Это норм чел">
+        <div class="card" style="width: 18rem;">
+            <div class="p-3 border"></div>
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">Как связаться</h5>
+            <h6 class="card-subtitle mb-2 text-muted">А никак, я вас сам найду</h6>
+            <p class="card-text">Чтобы поболтать перейдите в telegram, а для просмотра кода перейдите по Git</p>
+            <a href="https://web.telegram.org/LoliLord1" class="card-link">Telegram</a>
+            <a href="https://github.com/Ilya060469/Sait-for-himik" class="card-link">Git</a>
+          </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
