@@ -79,7 +79,7 @@ def register():
 @login_required
 def logout():
     logout_user()
-    return redirect(url_for('about'))
+    return render_template('bye.html')
 
 
 @app.after_request
@@ -186,5 +186,4 @@ def cum():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
     app.run(debug=True)
